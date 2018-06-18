@@ -14,6 +14,13 @@
 		3B70D36B20D74F9B007D2770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B70D36920D74F9B007D2770 /* LaunchScreen.storyboard */; };
 		3B70D37620D74F9B007D2770 /* TSSocial_PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D37520D74F9B007D2770 /* TSSocial_PayTests.swift */; };
 		3B70D38120D74F9B007D2770 /* TSSocial_PayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D38020D74F9B007D2770 /* TSSocial_PayUITests.swift */; };
+		3B70D39420D7512A007D2770 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B70D39220D7512A007D2770 /* AlipaySDK.bundle */; };
+		3B70D39520D7512A007D2770 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B70D39320D7512A007D2770 /* AlipaySDK.framework */; };
+		3B70D39820D7532E007D2770 /* TSPaymentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D39720D7532E007D2770 /* TSPaymentHelper.swift */; };
+		3B70D39A20D756D4007D2770 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B70D39920D756D4007D2770 /* CoreMotion.framework */; };
+		3B70D39C20D78857007D2770 /* TSPayPal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D39B20D78857007D2770 /* TSPayPal.swift */; };
+		3B70D39E20D7900A007D2770 /* TSPayPalInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D39D20D7900A007D2770 /* TSPayPalInterface.swift */; };
+		EA744AF61F55A89181DF49E1 /* Pods_TSSocial_Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B582935C3A3D9706DE218667 /* Pods_TSSocial_Pay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0F2E15335A5C0458DADF21 /* Pods-TSSocial_Pay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSSocial_Pay.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSSocial_Pay/Pods-TSSocial_Pay.release.xcconfig"; sourceTree = "<group>"; };
 		3B70D35D20D74F99007D2770 /* TSSocial_Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSSocial_Pay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B70D36020D74F99007D2770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B70D36220D74F99007D2770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,15 @@
 		3B70D37C20D74F9B007D2770 /* TSSocial_PayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSSocial_PayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B70D38020D74F9B007D2770 /* TSSocial_PayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSocial_PayUITests.swift; sourceTree = "<group>"; };
 		3B70D38220D74F9B007D2770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B70D39220D7512A007D2770 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		3B70D39320D7512A007D2770 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		3B70D39620D7523F007D2770 /* TSSocial_Pay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSSocial_Pay-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B70D39720D7532E007D2770 /* TSPaymentHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSPaymentHelper.swift; sourceTree = "<group>"; };
+		3B70D39920D756D4007D2770 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3B70D39B20D78857007D2770 /* TSPayPal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSPayPal.swift; sourceTree = "<group>"; };
+		3B70D39D20D7900A007D2770 /* TSPayPalInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSPayPalInterface.swift; sourceTree = "<group>"; };
+		4968B65C7A10E47B4E28DE48 /* Pods-TSSocial_Pay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSSocial_Pay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSSocial_Pay/Pods-TSSocial_Pay.debug.xcconfig"; sourceTree = "<group>"; };
+		B582935C3A3D9706DE218667 /* Pods_TSSocial_Pay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSSocial_Pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B70D39A20D756D4007D2770 /* CoreMotion.framework in Frameworks */,
+				3B70D39520D7512A007D2770 /* AlipaySDK.framework in Frameworks */,
+				EA744AF61F55A89181DF49E1 /* Pods_TSSocial_Pay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +97,13 @@
 		3B70D35420D74F99007D2770 = {
 			isa = PBXGroup;
 			children = (
+				3B70D38E20D750D5007D2770 /* TSSocial_PaySrc */,
 				3B70D35F20D74F99007D2770 /* TSSocial_Pay */,
 				3B70D37420D74F9B007D2770 /* TSSocial_PayTests */,
 				3B70D37F20D74F9B007D2770 /* TSSocial_PayUITests */,
 				3B70D35E20D74F99007D2770 /* Products */,
+				C9CD4BA50303E9077070B667 /* Pods */,
+				FB62EB2AF63B9572F8096F47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,7 @@
 				3B70D36720D74F9B007D2770 /* Assets.xcassets */,
 				3B70D36920D74F9B007D2770 /* LaunchScreen.storyboard */,
 				3B70D36C20D74F9B007D2770 /* Info.plist */,
+				3B70D39620D7523F007D2770 /* TSSocial_Pay-Bridging-Header.h */,
 			);
 			path = TSSocial_Pay;
 			sourceTree = "<group>";
@@ -125,6 +149,60 @@
 			path = TSSocial_PayUITests;
 			sourceTree = "<group>";
 		};
+		3B70D38E20D750D5007D2770 /* TSSocial_PaySrc */ = {
+			isa = PBXGroup;
+			children = (
+				3B70D39020D750F7007D2770 /* class */,
+				3B70D38F20D750E9007D2770 /* lib */,
+			);
+			path = TSSocial_PaySrc;
+			sourceTree = "<group>";
+		};
+		3B70D38F20D750E9007D2770 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3B70D39120D7512A007D2770 /* AlipaySDK */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3B70D39020D750F7007D2770 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				3B70D39720D7532E007D2770 /* TSPaymentHelper.swift */,
+				3B70D39D20D7900A007D2770 /* TSPayPalInterface.swift */,
+				3B70D39B20D78857007D2770 /* TSPayPal.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		3B70D39120D7512A007D2770 /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				3B70D39220D7512A007D2770 /* AlipaySDK.bundle */,
+				3B70D39320D7512A007D2770 /* AlipaySDK.framework */,
+			);
+			path = AlipaySDK;
+			sourceTree = "<group>";
+		};
+		C9CD4BA50303E9077070B667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4968B65C7A10E47B4E28DE48 /* Pods-TSSocial_Pay.debug.xcconfig */,
+				0E0F2E15335A5C0458DADF21 /* Pods-TSSocial_Pay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB62EB2AF63B9572F8096F47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B70D39920D756D4007D2770 /* CoreMotion.framework */,
+				B582935C3A3D9706DE218667 /* Pods_TSSocial_Pay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B70D38520D74F9B007D2770 /* Build configuration list for PBXNativeTarget "TSSocial_Pay" */;
 			buildPhases = (
+				0B7AD6A6435D4AB17F47EDD6 /* [CP] Check Pods Manifest.lock */,
 				3B70D35920D74F99007D2770 /* Sources */,
 				3B70D35A20D74F99007D2770 /* Frameworks */,
 				3B70D35B20D74F99007D2770 /* Resources */,
@@ -231,6 +310,7 @@
 			files = (
 				3B70D36B20D74F9B007D2770 /* LaunchScreen.storyboard in Resources */,
 				3B70D36820D74F9B007D2770 /* Assets.xcassets in Resources */,
+				3B70D39420D7512A007D2770 /* AlipaySDK.bundle in Resources */,
 				3B70D36620D74F99007D2770 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +331,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B7AD6A6435D4AB17F47EDD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TSSocial_Pay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B70D35920D74F99007D2770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +359,9 @@
 			files = (
 				3B70D36320D74F99007D2770 /* ViewController.swift in Sources */,
 				3B70D36120D74F99007D2770 /* AppDelegate.swift in Sources */,
+				3B70D39820D7532E007D2770 /* TSPaymentHelper.swift in Sources */,
+				3B70D39E20D7900A007D2770 /* TSPayPalInterface.swift in Sources */,
+				3B70D39C20D78857007D2770 /* TSPayPal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +532,14 @@
 		};
 		3B70D38620D74F9B007D2770 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4968B65C7A10E47B4E28DE48 /* Pods-TSSocial_Pay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSSocial_PaySrc/lib/AlipaySDK",
+				);
 				INFOPLIST_FILE = TSSocial_Pay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caiqr.paul.TSSocial-Pay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TSSocial_Pay/TSSocial_Pay-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,9 +555,14 @@
 		};
 		3B70D38720D74F9B007D2770 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0F2E15335A5C0458DADF21 /* Pods-TSSocial_Pay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSSocial_PaySrc/lib/AlipaySDK",
+				);
 				INFOPLIST_FILE = TSSocial_Pay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +570,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caiqr.paul.TSSocial-Pay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TSSocial_Pay/TSSocial_Pay-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

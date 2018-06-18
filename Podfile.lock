@@ -1,0 +1,28 @@
+PODS:
+  - CardIO (5.4.1)
+  - PayPal-iOS-SDK (2.18.1):
+    - PayPal-iOS-SDK/CardIO (= 2.18.1)
+    - PayPal-iOS-SDK/Core (= 2.18.1)
+  - PayPal-iOS-SDK/CardIO (2.18.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.18.1)
+  - WechatOpenSDK (1.8.2)
+
+DEPENDENCIES:
+  - PayPal-iOS-SDK
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CardIO
+    - PayPal-iOS-SDK
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  PayPal-iOS-SDK: 10654cd111e911a9807bddb96fae81aacb8e9915
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+
+PODFILE CHECKSUM: 00b997824e81bf3ef49854dab0d54cf30b763f54
+
+COCOAPODS: 1.5.3
